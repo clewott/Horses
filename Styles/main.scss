@@ -1,0 +1,20 @@
+.mainImage {
+  background: URL("/Images/Farm_Flower.jpeg") no-repeat;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  min-height: 600px;
+  ul {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0px;
+    li {
+      display: inline-block;
+      list-style-type: none;
+      font-size: 28px;
+      padding: 5px;
+      border: 1px solid grey;
+    }
+  }
+}
