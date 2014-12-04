@@ -1,3 +1,6 @@
+body {
+  background-color: grey; }
+
 .mainImage {
   background: URL("/Images/Farm_Flower.jpeg") no-repeat;
   -webkit-background-size: 100%;
