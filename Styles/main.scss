@@ -1,24 +1,57 @@
+html {
+  background: URL("/Images/Farm_Flower.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
-  background-color: grey;
+
 }
 
 .mainImage {
-  background: URL("/Images/Farm_Flower.jpeg") no-repeat;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  min-height: 600px;
   ul {
-    text-align: center;
-    padding-top: 10px;
+    position: absolute;
+    top: 10px;
     padding-left: 0px;
-    li {
+    width:100%;
+    text-align: center;
+    a {
       display: inline-block;
       list-style-type: none;
       font-size: 28px;
       padding: 5px;
       border: 1px solid grey;
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: rgba(84,84,84, 0.3);
+    }
+  }
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  nav {
+    ul {
+      padding-left: 0px;
+      margin-bottom: 0px;
+      li {
+        display: inline-block;
+        list-style-type: none;
+        font-size: 20px;
+        color: white;
+        a {
+          color: white;
+        }
+        i {
+          color: red;
+        }
+      }
     }
   }
 }
